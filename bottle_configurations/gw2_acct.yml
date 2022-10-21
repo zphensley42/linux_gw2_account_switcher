@@ -1,0 +1,112 @@
+Arch: win64
+Creation_Date: '2022-10-20 17:16:38.748435'
+Custom_Path: false
+DLL_Overrides: {}
+DXVK: dxvk-1.10.3
+Environment: Gaming
+Environment_Variables: {}
+External_Programs:
+    4abe701e-5bf2-4107-8805-ab82d7eec064:
+        arguments: __GL_THREADED_OPTIMIZATIONS=1 DXVK_ASYNC=1 %command% -shareArchive -autologin
+        dxvk: true
+        dxvk_nvapi: false
+        executable: Gw2-64.exe
+        folder: /home/zhensley/.var/app/com.usebottles.bottles/data/bottles/bottles/gw2_base/drive_c/Program
+            Files/Guild Wars 2
+        fsr: false
+        icon: com.usebottles.bottles-program
+        id: 4abe701e-5bf2-4107-8805-ab82d7eec064
+        name: Gw2-64
+        path: /home/zhensley/.var/app/com.usebottles.bottles/data/bottles/bottles/gw2_base/drive_c/Program
+            Files/Guild Wars 2/Gw2-64.exe
+        pulseaudio_latency: true
+        removed: null
+        script: null
+        virtual_desktop: false
+        vkd3d: false
+    b6fce4df-84d5-4ffa-8b8d-9e85cf5bab7c:
+        arguments: _GL_THREADED_OPTIMIZATIONS=1 DXVK_ASYNC=1 %command%
+        dxvk: true
+        dxvk_nvapi: false
+        executable: Gw2-64.exe
+        folder: /home/zhensley/.var/app/com.usebottles.bottles/data/bottles/bottles/gw2_base/drive_c/Program
+            Files/Guild Wars 2
+        fsr: false
+        icon: com.usebottles.bottles-program
+        id: b6fce4df-84d5-4ffa-8b8d-9e85cf5bab7c
+        name: Gw2-64_update
+        path: /home/zhensley/.var/app/com.usebottles.bottles/data/bottles/bottles/gw2_base/drive_c/Program
+            Files/Guild Wars 2/Gw2-64.exe
+        pulseaudio_latency: true
+        removed: null
+        script: null
+        virtual_desktop: false
+        vkd3d: false
+Installed_Dependencies:
+- d3dx9
+- msls31
+- arial32
+- times32
+- courie32
+- d3dcompiler_43
+- d3dcompiler_47
+Language: sys
+LatencyFleX: latencyflex-v0.1.0
+Latest_Executables: []
+NVAPI: dxvk-nvapi-v0.5.4
+Name: gw2_acct1
+Parameters:
+    custom_dpi: 96
+    discrete_gpu: true
+    dxvk: true
+    dxvk_nvapi: false
+    fixme_logs: false
+    fsr: false
+    fsr_level: 5
+    fullscreen_capture: false
+    gamemode: true
+    gamescope: false
+    gamescope_borderless: false
+    gamescope_fps: 0
+    gamescope_fps_no_focus: 0
+    gamescope_fullscreen: true
+    gamescope_game_height: 0
+    gamescope_game_width: 0
+    gamescope_scaling: false
+    gamescope_window_height: 0
+    gamescope_window_width: 0
+    latencyflex: false
+    mangohud: false
+    mouse_warp: true
+    obsvkc: false
+    pulseaudio_latency: true
+    renderer: gl
+    sandbox: false
+    sync: esync
+    take_focus: false
+    use_be_runtime: true
+    use_eac_runtime: true
+    use_runtime: false
+    use_steam_runtime: false
+    versioning_automatic: false
+    versioning_compression: false
+    versioning_exclusion_patterns: false
+    virtual_desktop: false
+    virtual_desktop_res: 1280x720
+    vkbasalt: false
+    vkd3d: false
+    vmtouch: false
+    vmtouch_cache_cwd: false
+Path: gw2_acct1
+Runner: soda-7.0-4
+Sandbox:
+    share_net: true
+    share_sound: true
+State: 0
+Uninstallers: {}
+Update_Date: '2022-10-21 10:17:09.582859'
+VKD3D: vkd3d-proton-2.6-1-5b73139
+Versioning: false
+Versioning_Exclusion_Patterns: []
+Windows: win10
+WorkingDir: ''
